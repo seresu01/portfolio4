@@ -46,7 +46,7 @@ header {
 }
 
 .header_nav ul li a {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
   display: block;
   text-align: center;
@@ -73,27 +73,27 @@ header {
 .top_img_1 {
   position: absolute;
   top: 15%;
-  left: 6%;
+  left: 8%;
   object-fit: contain;
 }
 
 .top_img_2 {
   position: absolute;
   top: 16%;
-  left: 10%;
+  left: 11.5%;
   object-fit: contain;
 }
 
 .top_img_txt1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   position: absolute;
   text-align: center;
-  top: 33%;
-  left: 2.5%;
+  top: 30%;
+  left: 5%;
 }
 
 .top_img_txt1 span {
-  font-size: 1.3rem;
+  font-size: 1rem;
   display: block;
   line-height: 2;
 }
@@ -106,15 +106,22 @@ header {
 }
 
 .top_bottom_left p {
+  font-size: 1rem;
   padding-bottom: 7%;
   text-align: center;
 }
 
 .top_bottom_left {
   width: 21%;
+  padding-top: 5%;
   padding-left: 3%;
   z-index: 50;
   position: fixed;
+}
+
+.top_bottom_left2 {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .download_apple {
@@ -153,7 +160,7 @@ header {
 }
 
 .top_bottom_right h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   padding-top: 8%;
 }
@@ -171,13 +178,13 @@ header {
 }
 
 .service_wrapper h2 {
-  font-size: 2.5rem;
-  padding: 20% 0 5% 54%;
+  font-size: 2rem;
+  padding: 15% 0 3% 57%;
   color: rgb(48, 48, 48);
 }
 
 .service_wrapper p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   line-height: 1.5;
   width: 33%;
   padding-left: 55%;
@@ -185,7 +192,7 @@ header {
 }
 
 .service_btn {
-  padding: 5% 0 35.2% 0; 
+  padding: 3% 0 33% 0; 
 }
 
 .service_btn:hover {
@@ -196,15 +203,16 @@ header {
   padding-left: 63%;
   text-align: center;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .service_btn p a {
-  padding: 6% 0;
+  padding: 3% 0;
   background-color: rgb(154, 194, 253);
   border-radius: 90px;
   border: solid black 1px;
   display: block;
-  width: 60%;
+  width: 40%;
   margin: 0 auto;
 }
 
@@ -216,14 +224,14 @@ header {
 }
 
 .service_wrapper2 h2 {
-  font-size: 2.5rem;
-  padding: 30% 0 5% 10%;
+  font-size: 2rem;
+  padding: 24% 0 5% 10%;
   color: rgb(48, 48, 48);
 }
 
 .service_wrapper2 p {
-  font-size: 1.3rem;
-  padding: 0 0 30% 10%;
+  font-size: 1rem;
+  padding: 0 0 24% 10%;
   line-height: 1.5;
   color: rgb(48, 48, 48);
 }
@@ -237,16 +245,16 @@ header {
 }
 
 .service_wrapper3 h2 {
-  font-size: 2.5rem;
-  padding: 30% 0 5% 10%;
+  font-size: 2rem;
+  padding: 30% 0 5% 11%;
   color: rgb(48, 48, 48);
 }
 
 .service_wrapper3 p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   line-height: 1.5;
   width: 30%;
-  padding: 0 0 30% 11%;
+  padding: 0 0 20% 11%;
   color: rgb(48, 48, 48);
 }
 
@@ -262,7 +270,7 @@ header {
 
 .service_wrapper4 {
   background-color: white;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
@@ -276,7 +284,7 @@ header {
 }
 
 .center_img {
-  font-size: 4rem;
+  font-size: 3rem;
   color: black;
 }
 
@@ -285,7 +293,7 @@ header {
 }
 
 .service4 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   width: 80%;
   margin: 0 auto;
   text-align: center;
@@ -294,7 +302,7 @@ header {
 }
 
 .service4_txt {
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.5;
   width: 80%;
   margin: 0 auto;
@@ -305,16 +313,16 @@ header {
 }
 
 .plan_top h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 15%;
   padding-bottom: 10%;
 }
 
 .plan_items {
   display: table;
   width: 90%;
-  padding-bottom: 10%;
+  padding-bottom: 18%;
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
@@ -324,7 +332,7 @@ header {
 .item_left {
   display: table-cell;
   vertical-align: middle;
-  width: 40%;
+  width: 25%;
   background-color: white;
   border-radius: 90px;
   border: solid black 1px;
@@ -334,20 +342,20 @@ header {
   padding-top: 15%;
   padding-bottom: 18%;
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
 }
 
 .item_left_txt {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
-  font-size: 2rem;
+  font-size: 1rem;
   padding-bottom: 20%;
 }
 
 .item_right {
   display: table-cell;
   vertical-align: middle;
-  width: 40%;
+  width: 25%;
   background-color: white;
   border-radius: 90px;
   border: solid black 1px;
@@ -356,38 +364,40 @@ header {
 .item_right h3 {
   padding: 15% 0;
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
 }
 
 .item_right_txt1 {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
-  font-size: 2rem;
+  font-size: 1rem;
   margin-bottom: 5%;
+  text-align: center;
 }
 
 .item_right_txt2 {
-  width: 83%;
+  width: 84%;
   margin: 0 auto;
-  font-size: 1.8rem;
+  font-size: 1rem;
   padding-bottom: 13%;
 }
 
 .item_btn {
-  width: 90%;
+  width: 80%;
   text-align: center;
   margin: 0 auto;
-  font-size: 1.8rem;
+  font-size: 1rem;
   padding-bottom: 12%;
 }
 
 .item_btn p {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .item_btn p a {
-  width: 80%;
+  width: 100%;
+  margin: 0 auto;
   display: block;
   line-height: 2;
   border-radius: 90px;
@@ -408,9 +418,9 @@ header {
 }
 
 .faq_wrapper h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   padding-top: 13%;
-  padding-left: 7%;
+  padding-left: 10%;
 }
 
 .faq_main {
@@ -421,7 +431,7 @@ header {
 }
 
 .faq1 {
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 1.5;
   color: black;
   border-radius: 90px;
@@ -431,7 +441,7 @@ header {
 }
 
 .faq2 {
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 1.5;
   color: black;
   border-radius: 90px;
@@ -490,34 +500,34 @@ footer {
 
   .top_img_1 {
     position: absolute;
-    top: 6%;
+    top: 9%;
     left: 8%;
     object-fit: contain;
   }
   
     .top_img_2 {
       position: absolute;
-      top: 9%;
-      left: 12%;
+      top: 11%;
+      left: 11.5%;
       object-fit: contain;
     }
   
     .top_img_txt1 {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       position: absolute;
       text-align: center;
-      top: 21%;
-      left: 3.5%;
+      top: 22%;
+      left: 6.7%;
     }
   
     .top_img_txt1 span {
-      font-size: 1rem;
+      font-size: 0.6rem;
       display: block;
       line-height: 2;
     }
   
     .top_bottom {
-      padding-bottom: 2%;
+      padding-bottom: 5%;
     }
 
     .top_bottom_left {
@@ -528,7 +538,7 @@ footer {
     }
 
     .top_bottom_left2 {
-      width: 25%;
+      width: 20%;
       z-index: 50;
       position: fixed;
     }
@@ -538,7 +548,8 @@ footer {
     }
 
     .top_bottom_left p {
-      padding-left: 10%;
+      font-size: 1rem;
+      padding-left: 0;
       padding-bottom: 7%;
       text-align: left;
       line-height: 1.5;
@@ -558,23 +569,31 @@ footer {
 
     .top_bottom_right h2 {
       padding-top: 15%;
-      font-size: 1.5rem;
+      font-size: 1rem;
+    }
+
+    .top_bottom_right p {
+      font-size: 1rem;
     }
 
     .service_wrapper h2 {
-      font-size: 2rem;
-      padding: 20% 0 5% 54%;
+      font-size: 1.5rem;
+      padding: 20% 0 5% 57%;
       color: rgb(48, 48, 48);
     }
   
     .service_wrapper p {
-      font-size: 1.3rem;
+      font-size: 1rem;
       line-height: 1.5;
       width: 36%;
       padding-left: 55%;
       color: rgb(48, 48, 48);
     }
   
+    .service_btn {
+      padding-bottom: 44%;
+    }
+
     .service_btn p {
       padding-left: 62%;
       text-align: center;
@@ -589,32 +608,40 @@ footer {
     }
 
     .service_wrapper2 h2 {
-      font-size: 1.8rem;
+      padding-top: 34%;
+      font-size: 1.5rem;
     }
 
     .service_wrapper2 p {
-      font-size: 1.3rem;
+      font-size: 1rem;
+      padding-bottom: 34%;
     }
 
     .service_wrapper3 h2 {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
+      padding-top: 35%;
     }
 
     .service_wrapper3 p {
       width: 35%;
       padding-left: 10%;
+      padding-bottom: 35%;
     }
 
-    .service4 {
-      padding-bottom: 15%;
+    .service4_inner {
+      padding-top: 20%;
     }
 
     .service4 h2 {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
+      padding-top: 10%;
+      padding-bottom: 3%;
     }
 
-    .service4 p {
-      font-size: 1.3rem;
+    .service4_txt {
+      font-size: 1rem;
+      padding-top: 7%;
+      padding-bottom: 15%;
     }
 
     .plan_items {
@@ -624,49 +651,43 @@ footer {
     .plan_top h2 {
       font-size: 2rem;
       text-align: center;
-      padding-top: 1%;
-      padding-bottom: 10%;
-    }
-  
-    .item_left {
-      width: 35%;
+      padding-top: 10%;
+      padding-bottom: 20%;
     }
 
     .item_left h3 {
-      font-size: 2rem;
+      font-size: 1.5rem;
+      padding-top: 30%;
     }
   
     .item_left_txt {
-      font-size: 1.1rem;
+      font-size: 1rem;
       line-height: 1.5;
       width: 61%;
       margin: 0 auto;
     }
-  
-    .item_right {
-      width: 35%;
-    }
 
     .item_right h3 {
-      padding-top: 14%;
-      font-size: 2rem;
+      padding-top: 30%;
+      font-size: 1.5rem;
     }
   
     .item_right_txt1 {
-      font-size: 1.1rem;
+      font-size: 1rem;
       text-align: center;
     }
   
     .item_right_txt2 {
-      font-size: 1.1rem;
+      font-size: 0.8rem;
       line-height: 1.5;
-      width: 75%;
+      width: 80%;
       margin: 0 auto;
-      padding-bottom: 15%;
+      padding-bottom: 25%;
     }
   
     .item_btn {
-      font-size: 1.1rem;
+      font-size: 1rem;
+      padding-bottom: 20%;
     }
   
     .item_btn p {
@@ -687,13 +708,18 @@ footer {
       height: auto;
     }
 
+    .faq_wrapper {
+      padding-bottom: 7%;
+    }
+
     .faq_wrapper h2 {
       font-size: 2rem;
-      padding-top: 20%;
+      padding-top: 15%;
+      padding-bottom: 10%;
     }
 
     .faq_wrapper p {
-      font-size: 1.3rem;
+      font-size: 1rem;
     }
 
     .footer_nav {
@@ -741,28 +767,29 @@ footer {
   
     .top_img_2 {
       position: absolute;
-      top: 10%;
-      left: 12%;
+      top: 9%;
+      left: 11.5%;
       object-fit: contain;
     }
   
     .top_img_txt1 {
-      font-size: 1.2rem;
+      font-size: 1rem;
       position: absolute;
-      top: 21%;
-      left: 2%;
+      top: 19%;
+      left: 3.6%;
     }
   
     .top_img_txt1 span {
-      font-size: 0.8rem;
+      font-size: 0.6rem;
     }
 
     .top_bottom {
       height: 25vh;
+      padding-bottom: 0;
     }
 
     .top_bottom_left p {
-      font-size: 0.8rem;
+      font-size: 0.6rem;
       padding-left: 10%;
       padding-bottom: 7%;
       text-align: left;
@@ -799,8 +826,7 @@ footer {
     }
 
     .service_wrapper h2 {
-      font-size: 1.5rem;
-      padding: 20% 0 5% 50% ;
+      padding: 25% 0 5% 50% ;
     }
 
     .service_wrapper p {
@@ -810,6 +836,10 @@ footer {
       width: 38%;
     }
   
+    .service_btn {
+      padding-bottom: 54%;
+    }
+
     .service_btn p {
       padding-left: 56%;
     }
@@ -823,17 +853,18 @@ footer {
 
     .service_wrapper2 h2 {
       font-size: 1.5rem;
+      padding-top: 43%;
     }
 
     .service_wrapper2 p {
       font-size: 1rem;
       padding-bottom: 5%;
       width: 38%;
-      padding-bottom: 30%;
+      padding-bottom: 40%;
     }
 
     .service_wrapper3 h2 {
-      padding-top: 35%;
+      padding-top: 45%;
       font-size: 1.5rem;
     }
 
@@ -841,85 +872,41 @@ footer {
       font-size: 1rem;
       padding-bottom: 5%;
       width: 38%;
-      padding-bottom: 30%;
+      padding-bottom: 45%;
       padding-left: 10%;
     }
 
     .service4 {
-      padding-bottom: 20%;
-    }
-  
-    .plan_items {
-      width: 100%;
-    }
-  
-    .plan_top h2 {
-      font-size: 2rem;
-      text-align: center;
-      padding-top: 1%;
       padding-bottom: 10%;
     }
   
-    .item_left {
+    .service4 h2 {
+      padding-top: 15%;
+    }
+
+    .service4_txt {
+      padding-top: 10%;
+    }
+
+    .plan_top h2 {
+      padding-top: 20%;
+    }
+
+    .plan_items {
+      padding-bottom: 25%;
+    }
+
+    .item_left,.item_right {
       width: 35%;
     }
-  
-    .item_left h3 {
-      font-size: 1.5rem;
-      padding-bottom: 20%;
-    }
-  
-    .item_left_txt {
-      font-size: 1rem;
-      line-height: 1.5;
-      width: 80%;
-      margin: 0 auto;
-    }
-  
-    .item_right {
-      width: 35%;
-    }
-  
-    .item_right h3 {
-      padding-top: 14%;
-      font-size: 1.5rem;
-    }
-  
-    .item_right_txt1 {
-      font-size: 1rem;
-      text-align: center;
-    }
-  
-    .item_right_txt2 {
-      font-size: 1rem;
-      line-height: 1.5;
-      width: 100%;
-      margin: 0 auto;
-      padding-bottom: 15%;
-      text-align: center;
-    }
-  
-    .item_btn {
-      font-size: 0.7rem;
-    }
-  
-    .item_btn p {
-      width: 90%;
-      margin: 0 auto;
-    }
-  
-    .item_btn p a {
-      width: 100%;
-      display: block;
-      line-height: 2;
-      border-radius: 90px;
-      background-color: black;
-      color: white;
+
+    .faq_wrapper {
+      padding-top: 15%;
     }
 
     .faq_wrapper h2 {
       font-size: 2rem;
-      padding-top: 20%;
+      padding-top: 15%;
     }
 
     .footer_nav {
@@ -945,23 +932,23 @@ footer {
 
   .top_img_1 {
     top: 8%;
-    left: 42%;
+    left: 43%;
   }
 
   .top_img_2 {
     top: 11%;
-    left: 46%;
+    left: 46.5%;
   }
 
   .top_img_txt1 {
-    font-size: 1.2rem;
-    top: 20%;
-    left: 28.8%;
+    font-size: 1rem;
+    top: 18%;
+    left: 30%;
     line-height: 1.3;
   }
 
   .top_img_txt1 span {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .top_bottom_left {
@@ -977,6 +964,7 @@ footer {
   }
 
   .service_wrapper h2 {
+    padding-top: 60%;
     font-size: 1rem;
   }
 
@@ -987,6 +975,7 @@ footer {
 
   .service_btn {
     padding-left: 0;
+    padding-bottom: 83%;
   }
 
   .service_btn p {
@@ -998,31 +987,48 @@ footer {
   }
 
   .service_wrapper2 h2 {
+    padding-top: 75%;
     font-size: 1rem;
   }
 
   .service_wrapper2 p {
     font-size: 0.7rem;
+    padding-bottom: 75%;
   }
 
   .service_wrapper3 h2 {
+    padding-top: 75%;
     font-size: 1rem;
   }
 
   .service_wrapper3 p {
     font-size: 0.7rem;
+    padding-bottom: 75%;
+  }
+
+  .service4_inner {
+    padding-top: 40%;
+  }
+
+  .service_wrapper4 p {
+    font-size: 1rem;
   }
 
   .service4 h2 {
     font-size: 1rem;
+    padding-top: 20%;
+    padding-bottom: 20%;
   }
 
-  .service4 p {
+  .service4_txt {
     font-size: 0.7rem;
+    padding-top: 0;
+    padding-bottom: 50%;
   }
 
   .plan_top h2 {
     font-size: 1.3rem;
+    padding-top: 0;
   }
 
   .plan_items {
@@ -1078,12 +1084,22 @@ footer {
     text-align: center;
   }
 
+  .faq_wrapper {
+    padding-top: 30%;
+    padding-bottom: 40%;
+  }
+
   .faq_wrapper h2 {
     font-size: 1.5rem;
+    padding-left: 6%;
   }
 
   .faq_main p {
     font-size: 0.8rem;
+  }
+
+  .faq1 {
+    margin-bottom: 20%;
   }
 
   .faq1,.faq2 {
@@ -1091,7 +1107,15 @@ footer {
   }
 
   .footer_nav {
-    padding-top: 15%;
+    padding-top: 30%;
+  }
+
+  .footer_nav ul li a {
+    font-size: 0.6rem;
+  }
+
+  .copyright {
+    font-size: 0.4rem;
   }
 }
 
