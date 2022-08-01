@@ -74,44 +74,10 @@ header {
   opacity: 0.8;
 }
 
-.top_img_container {
-  position: relative;
-  padding: 110px;
-  width: 500px;
+.top_img {
   position: absolute;
-  top: 17%;
-  left: 3%;
-}
-
-.top_img_1 {
-  position: absolute;
-  top: 0;
-  left: 9.5%;
-  transform: translateY(0) translateX(-8%);
-  height: 150px;
-}
-
-.top_img_2 {
-  position: absolute;
-  height: 80px;
-  top: 5%;
-  left: 16%;
-  transform: translateY(-5%) translateX(-6%);
-}
-
-.top_img_txt1 {
-  font-size: 1.5rem;
-  position: absolute;
-  text-align: center;
-  bottom: 0;
-  left: 7.5%;
-  transform: translateY(0) translateX(-7%);
-}
-
-.top_img_txt1 span {
-  font-size: 1rem;
-  display: block;
-  line-height: 2;
+  top: 20%;
+  left: 5%;
 }
 
 .top_bottom {
@@ -536,31 +502,13 @@ footer {
   .header_nav ul li a {
     font-size: 1.5rem;
   }
-
-  .top_img_container {
-    top: 6%;
-  }
-
-  .top_img_1 {
-    top: 0;
-    left: 13.5%;
-    transform: translateY(0) translateX(-8%);
-    height: 100px;
-  }
-
-  .top_img_2 {
-    height: 50px;
-    top: 5%;
-    left: 20%;
-    transform: translateY(-5%) translateX(-25%);
-  }
-
-  .top_img_txt1 {
-    top: 50%;
-    left: 7%;
-    transform: translateY(0) translateX(-7%);
-  }
   
+  .top_img {
+    top: 1%;
+    width: 20%;
+    object-fit: contain;
+  }
+
     .top_bottom {
       padding-bottom: 5%;
     }
@@ -799,42 +747,19 @@ footer {
     font-size: 0.7rem;
   }
   
-.top_img_container {
-  top: 9%;
-  left: 10%;
-  width: 200px;
-}
+  .top_img_container {
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    top: 10%;
+    height: 10%;
+    text-align: center;
+  }
 
-.top_img_1 {
-  position: absolute;
-  top: 0;
-  left: 60%;
-  transform: translateY(0) translateX(-8%);
-  height: 80px;
-}
-
-.top_img_2 {
-  position: absolute;
-  height: 40px;
-  top: 5%;
-  left: 66%;
-  transform: translateY(-5%) translateX(-6%);
-}
-
-.top_img_txt1 {
-  font-size: 1rem;
-  position: absolute;
-  text-align: center;
-  top: 41%;
-  left: 53%;
-  transform: translateY(0) translateX(-7%);
-}
-
-.top_img_txt1 span {
-  font-size: 0.7rem;
-  display: block;
-  line-height: 2;
-}
+  .top_img {
+    height: 100%;
+    display: block;
+  }
 
     .top_bottom {
       height: 20vh;
