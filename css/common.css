@@ -95,7 +95,7 @@ header {
 
 .top_bottom_left {
   width: 21%;
-  padding-top: 1%;
+  padding-top: 5%;
   padding-left: 3%;
   z-index: 50;
   position: fixed;
@@ -461,13 +461,13 @@ footer {
 
 .footer_wrapper {
   float: right;
-  width: 60%;
+  width: 70%;
 }
 
 .footer_nav {
   width: 100%;
   margin: 0 auto;
-  padding-top: 15%;
+  padding-top: 10%;
 }
 
 .footer_nav ul {
@@ -706,7 +706,7 @@ footer {
     }
 
     footer {
-      height: 20vh;
+      height: 35vh;
     }
 
     .footer_nav {
@@ -890,7 +890,7 @@ footer {
     }
 
     footer {
-      height: 25vh;
+      height: 31vh;
     }
 
     .footer_nav {
@@ -1190,12 +1190,12 @@ footer {
   }
 
   footer {
-    height: 40vh;
+    height: 38vh;
   }
 
   .footer_wrapper {
-    padding-top: 15%;
-    padding-right: 13%;
+    padding-top: 10%;
+
   }
 
   .footer_nav {
@@ -1215,8 +1215,7 @@ footer {
   }
 
   .copyright {
-    padding-top: 55%;
-    padding-left: 10%;
+    padding-top: 40%;
     font-size: 0.4rem;
     text-align: left;
   }
